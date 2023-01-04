@@ -1,0 +1,25 @@
+{
+    "name": "themagelover/admin-manually-reindex",
+    "description": "Manually Reindex on the Admin panel",
+    "require": {
+        "php": ">=7.1",
+        "magento/module-indexer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [],
+    "authors": [
+        {
+            "name": "Hung Le",
+            "email": "conghung2702@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TheMageLover\\AdminManuallyReindex\\": ""
+        }
+    }
+}
