@@ -3,11 +3,13 @@
     "description": "Manually Reindex on the Admin panel",
     "require": {
         "php": ">=7.1",
-        "magento/module-indexer": "*"
+        "magento/module-indexer": "100.4.*"
     },
     "type": "magento2-module",
     "version": "1.0.0",
-    "license": [],
+    "license": [
+        "OSL-3.0"
+    ],
     "authors": [
         {
             "name": "Hung Le",
