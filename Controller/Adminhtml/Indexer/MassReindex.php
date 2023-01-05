@@ -15,11 +15,11 @@ use Magento\Framework\App\Action\HttpPostActionInterface as HttpPostActionInterf
 class MassReindex extends Action implements HttpPostActionInterface
 {
     /** @var IndexerRegistry */
-    protected IndexerRegistry $indexerRegistry;
+    protected $indexerRegistry;
 
     /**
      * @param Context $context
-     * @param IndexerRegistry $indexerRegistry
+     * @param $indexerRegistry
      */
     public function __construct(Context $context, IndexerRegistry $indexerRegistry)
     {
